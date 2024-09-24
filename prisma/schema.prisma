@@ -10,7 +10,7 @@ generator client {
 
 datasource db {
   provider = "mysql"
-  url      = env("DATABASE_URL")
+  url      = "mysql://cesarbolado:Thaliana.8054@208.109.240.189:3306/dbname"
 }
 
 model Post {
